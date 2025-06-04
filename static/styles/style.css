@@ -1,0 +1,102 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+tr,th{
+    font-family: "Lato", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+    font-size: larger;
+    border-width: 2px;
+    border-style:solid ;
+    padding-left: 5px;
+    padding-right:5px;
+    border-radius: 10px;
+    
+    background-color: rgb(194, 236, 122);
+}
+.nav-table{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+   
+}
+#right-bar{
+    float: right;
+}
+.commong{
+    display: block;
+    height:61px;
+    background-image: url(https://media.istockphoto.com/id/1253533380/vector/race-flag-finish-flag-vector-isolated-illustration-race-flag-icon-stock-vector.jpg?s=612x612&w=0&k=20&c=o2aw7_HsFerkVh_hr57AjuLalp9e_q88YEc5HCA3PGY=);
+}
+.h{
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 2cm;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+.gridcar{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+img{
+    height: 335px;
+    width: 499px;
+} 
+.box{
+    margin: 1cm;
+    margin-left:  87PX;
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-size: larger;
+    border-style: solid;
+    border-width: 2px;
+}
+.contactsheading{
+    color: white;
+    font-size: 1.5cm;
+}
+
+.contact{
+    height: 6.8cm;
+}
+
+span{
+    color: white;
+    padding-left: 2cm;
+}
+hr{
+    margin: 0;
+}
+h6{
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+}
+h2{
+    letter-spacing: 0.08cm;
+    text-align: center;
+    margin: 0;
+    font-size:3cm;
+    padding-top: 1cm;
+    color: aqua;
+}
+.login,.registration{
+    text-decoration:none;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

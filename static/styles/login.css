@@ -1,0 +1,57 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(/static/media/sled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    display: inline-block;
+    border-width: 2px;
+    border-style: solid;
+    background-color: rgb(254, 254, 254);
+    border-radius: 10px;
+    height: 11cm;
+    width: 13cm;
+    text-align: middle;
+    margin: 7cm;
+    margin-left: 18cm; }
+input{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+form{
+    margin: 2cm;
+    margin-top: 1cm;
+    font-size: x-large;
+}
+h2{
+    text-align: center;
+}
+#rules{
+    display: inline;
+    padding: 0;
+    margin: 0;
+    width: 10%;
+    margin-bottom: 20px;
+}
+body{
+    font-family: "Lexend", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+
+}
+.submit{
+    background: rgb(40, 101, 167);
+    font-size: large;
+    cursor: pointer;
+}
+.submit:hover{
+    background: #7c2188;
+}
